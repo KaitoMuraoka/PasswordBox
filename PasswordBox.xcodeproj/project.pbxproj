@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F026F252C3996D000ED696C /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F242C3996D000ED696C /* KeychainAccess */; };
+		3F026F272C399A4100ED696C /* PasswordKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F262C399A4100ED696C /* PasswordKeychain.swift */; };
+		3F026F292C39A2E400ED696C /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F282C39A2E400ED696C /* EditViewModel.swift */; };
+		3F026F2B2C39A3F100ED696C /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F2A2C39A3F100ED696C /* AddViewModel.swift */; };
+		3F026F362C3A618400ED696C /* LicenseList in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F352C3A618400ED696C /* LicenseList */; };
+		3F026F382C3A622500ED696C /* LicenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F372C3A622500ED696C /* LicenseList.swift */; };
+		3F026F402C3A779900ED696C /* WebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F3F2C3A779900ED696C /* WebUI */; };
+		3F026F422C3A77A600ED696C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F412C3A77A600ED696C /* Contact.swift */; };
+		3F026F442C3A789500ED696C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F432C3A789500ED696C /* URLs.swift */; };
+		3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */; };
+		3F13F9C82C1DED720068908E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C72C1DED720068908E /* EditView.swift */; };
+		3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */; };
+		3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */; };
+		3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F92C1DE2710089CB5A /* AddView.swift */; };
+		3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */; };
+		3F6AA4BE2C3130FC008EC918 /* CreatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4BD2C3130FC008EC918 /* CreatePassword.swift */; };
 		3F8C859B2C189D4A0032277E /* PasswordBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C859A2C189D4A0032277E /* PasswordBoxApp.swift */; };
 		3F8C859D2C189D4A0032277E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C859C2C189D4A0032277E /* ContentView.swift */; };
 		3F8C859F2C189D4B0032277E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C859E2C189D4B0032277E /* Assets.xcassets */; };
@@ -14,6 +30,13 @@
 		3F8C85AC2C189D4B0032277E /* PasswordBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C85AB2C189D4B0032277E /* PasswordBoxTests.swift */; };
 		3F8C85B62C189D4B0032277E /* PasswordBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C85B52C189D4B0032277E /* PasswordBoxUITests.swift */; };
 		3F8C85B82C189D4B0032277E /* PasswordBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C85B72C189D4B0032277E /* PasswordBoxUITestsLaunchTests.swift */; };
+		3F8C85C52C189F0C0032277E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C85C42C189F0C0032277E /* ListView.swift */; };
+		3F8C85C72C189F230032277E /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C85C62C189F230032277E /* CellView.swift */; };
+		3F99FC4F2C390873001ED4B2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99FC4E2C390873001ED4B2 /* Images.swift */; };
+		3F99FC512C390D65001ED4B2 /* IconStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99FC502C390D65001ED4B2 /* IconStyles.swift */; };
+		3F99FC592C39258B001ED4B2 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99FC582C39258B001ED4B2 /* Entry.swift */; };
+		3FC77A5F2C313B5900B56E75 /* SettingIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC77A5E2C313B5900B56E75 /* SettingIconView.swift */; };
+		3FC77A612C313C4500B56E75 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC77A602C313C4500B56E75 /* IconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F026F262C399A4100ED696C /* PasswordKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeychain.swift; sourceTree = "<group>"; };
+		3F026F282C39A2E400ED696C /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		3F026F2A2C39A3F100ED696C /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		3F026F372C3A622500ED696C /* LicenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseList.swift; sourceTree = "<group>"; };
+		3F026F412C3A77A600ED696C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3F026F432C3A789500ED696C /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationViewModel.swift; sourceTree = "<group>"; };
+		3F13F9C72C1DED720068908E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormView.swift; sourceTree = "<group>"; };
+		3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
+		3F3DE2F92C1DE2710089CB5A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		3F6AA4BD2C3130FC008EC918 /* CreatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassword.swift; sourceTree = "<group>"; };
 		3F8C85972C189D4A0032277E /* PasswordBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8C859A2C189D4A0032277E /* PasswordBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordBoxApp.swift; sourceTree = "<group>"; };
 		3F8C859C2C189D4A0032277E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +80,13 @@
 		3F8C85B12C189D4B0032277E /* PasswordBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8C85B52C189D4B0032277E /* PasswordBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordBoxUITests.swift; sourceTree = "<group>"; };
 		3F8C85B72C189D4B0032277E /* PasswordBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F8C85C42C189F0C0032277E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3F8C85C62C189F230032277E /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		3F99FC4E2C390873001ED4B2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		3F99FC502C390D65001ED4B2 /* IconStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStyles.swift; sourceTree = "<group>"; };
+		3F99FC582C39258B001ED4B2 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		3FC77A5E2C313B5900B56E75 /* SettingIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingIconView.swift; sourceTree = "<group>"; };
+		3FC77A602C313C4500B56E75 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F026F402C3A779900ED696C /* WebUI in Frameworks */,
+				3F026F362C3A618400ED696C /* LicenseList in Frameworks */,
+				3F026F252C3996D000ED696C /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +117,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F026F232C3996D000ED696C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F026F2C2C39A69F00ED696C /* SettingIcon */ = {
+			isa = PBXGroup;
+			children = (
+				3FC77A5E2C313B5900B56E75 /* SettingIconView.swift */,
+				3FC77A602C313C4500B56E75 /* IconView.swift */,
+			);
+			path = SettingIcon;
+			sourceTree = "<group>";
+		};
+		3F13F9C12C1DECB20068908E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3F13F9CC2C1DEE070068908E /* Common */,
+				3F13F9C22C1DECBB0068908E /* List */,
+				3F13F9C32C1DECC90068908E /* Info */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3F13F9C22C1DECBB0068908E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C85C42C189F0C0032277E /* ListView.swift */,
+				3F8C85C62C189F230032277E /* CellView.swift */,
+				3F13F9C42C1DECD30068908E /* Add */,
+				3F13F9C92C1DED7F0068908E /* Edit */,
+				3F026F2C2C39A69F00ED696C /* SettingIcon */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3F13F9C32C1DECC90068908E /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */,
+				3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */,
+				3F026F372C3A622500ED696C /* LicenseList.swift */,
+				3F026F412C3A77A600ED696C /* Contact.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		3F13F9C42C1DECD30068908E /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DE2F92C1DE2710089CB5A /* AddView.swift */,
+				3F026F2A2C39A3F100ED696C /* AddViewModel.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		3F13F9C92C1DED7F0068908E /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				3F13F9C72C1DED720068908E /* EditView.swift */,
+				3F026F282C39A2E400ED696C /* EditViewModel.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		3F13F9CC2C1DEE070068908E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */,
+				3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3F6AA4BB2C3130D4008EC918 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F026F262C399A4100ED696C /* PasswordKeychain.swift */,
+				3F6AA4BC2C3130E3008EC918 /* CreatePassword */,
+				3F99FC582C39258B001ED4B2 /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F6AA4BC2C3130E3008EC918 /* CreatePassword */ = {
+			isa = PBXGroup;
+			children = (
+				3F6AA4BD2C3130FC008EC918 /* CreatePassword.swift */,
+			);
+			path = CreatePassword;
+			sourceTree = "<group>";
+		};
 		3F8C858E2C189D4A0032277E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +218,7 @@
 				3F8C85AA2C189D4B0032277E /* PasswordBoxTests */,
 				3F8C85B42C189D4B0032277E /* PasswordBoxUITests */,
 				3F8C85982C189D4A0032277E /* Products */,
+				3F026F232C3996D000ED696C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +237,9 @@
 			children = (
 				3F8C859A2C189D4A0032277E /* PasswordBoxApp.swift */,
 				3F8C859C2C189D4A0032277E /* ContentView.swift */,
-				3F8C859E2C189D4B0032277E /* Assets.xcassets */,
+				3F13F9C12C1DECB20068908E /* UI */,
+				3F6AA4BB2C3130D4008EC918 /* Model */,
+				3F99FC4D2C390859001ED4B2 /* Resources */,
 				3F8C85A02C189D4B0032277E /* Preview Content */,
 			);
 			path = PasswordBox;
@@ -127,6 +270,17 @@
 			path = PasswordBoxUITests;
 			sourceTree = "<group>";
 		};
+		3F99FC4D2C390859001ED4B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C859E2C189D4B0032277E /* Assets.xcassets */,
+				3F99FC4E2C390873001ED4B2 /* Images.swift */,
+				3F99FC502C390D65001ED4B2 /* IconStyles.swift */,
+				3F026F432C3A789500ED696C /* URLs.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +297,11 @@
 			dependencies = (
 			);
 			name = PasswordBox;
+			packageProductDependencies = (
+				3F026F242C3996D000ED696C /* KeychainAccess */,
+				3F026F352C3A618400ED696C /* LicenseList */,
+				3F026F3F2C3A779900ED696C /* WebUI */,
+			);
 			productName = PasswordBox;
 			productReference = 3F8C85972C189D4A0032277E /* PasswordBox.app */;
 			productType = "com.apple.product-type.application";
@@ -208,13 +367,19 @@
 			};
 			buildConfigurationList = 3F8C85922C189D4A0032277E /* Build configuration list for PBXProject "PasswordBox" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 3F8C858E2C189D4A0032277E;
+			packageReferences = (
+				3F3972422C3995D600B5FD6F /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				3F026F342C3A618400ED696C /* XCRemoteSwiftPackageReference "LicenseList" */,
+				3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */,
+			);
 			productRefGroup = 3F8C85982C189D4A0032277E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +422,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F026F272C399A4100ED696C /* PasswordKeychain.swift in Sources */,
+				3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */,
+				3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */,
+				3F026F442C3A789500ED696C /* URLs.swift in Sources */,
+				3F99FC512C390D65001ED4B2 /* IconStyles.swift in Sources */,
+				3F8C85C72C189F230032277E /* CellView.swift in Sources */,
+				3F026F2B2C39A3F100ED696C /* AddViewModel.swift in Sources */,
+				3F026F422C3A77A600ED696C /* Contact.swift in Sources */,
+				3FC77A612C313C4500B56E75 /* IconView.swift in Sources */,
+				3F026F292C39A2E400ED696C /* EditViewModel.swift in Sources */,
+				3F6AA4BE2C3130FC008EC918 /* CreatePassword.swift in Sources */,
+				3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */,
+				3F99FC4F2C390873001ED4B2 /* Images.swift in Sources */,
+				3F99FC592C39258B001ED4B2 /* Entry.swift in Sources */,
+				3F13F9C82C1DED720068908E /* EditView.swift in Sources */,
+				3FC77A5F2C313B5900B56E75 /* SettingIconView.swift in Sources */,
 				3F8C859D2C189D4A0032277E /* ContentView.swift in Sources */,
+				3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */,
 				3F8C859B2C189D4A0032277E /* PasswordBoxApp.swift in Sources */,
+				3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */,
+				3F8C85C52C189F0C0032277E /* ListView.swift in Sources */,
+				3F026F382C3A622500ED696C /* LicenseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,17 +604,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordBox/Preview Content\"";
 				DEVELOPMENT_TEAM = B58T472MM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID を使用してアプリへのアクセスを保護し、安全な認証を提供します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +625,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KaitoMuraoka.PasswordBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,17 +640,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordBox/Preview Content\"";
 				DEVELOPMENT_TEAM = B58T472MM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID を使用してアプリへのアクセスを保護し、安全な認証を提供します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +661,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KaitoMuraoka.PasswordBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +787,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F026F342C3A618400ED696C /* XCRemoteSwiftPackageReference "LicenseList" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cybozu/LicenseList.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+		3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cybozu/WebUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		3F3972422C3995D600B5FD6F /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F026F242C3996D000ED696C /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3972422C3995D600B5FD6F /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		3F026F352C3A618400ED696C /* LicenseList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F026F342C3A618400ED696C /* XCRemoteSwiftPackageReference "LicenseList" */;
+			productName = LicenseList;
+		};
+		3F026F3F2C3A779900ED696C /* WebUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */;
+			productName = WebUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F8C858F2C189D4A0032277E /* Project object */;
 }
