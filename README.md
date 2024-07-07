@@ -6,10 +6,6 @@ Often, the passwords we create ourselves contain unconscious patterns, such as f
 
 All data is stored locally on the user’s device, and the main password is stored in iCloud Keychain for secure access.
 
-## Screen
-
-TBD
-
 ## Requirement
 
 To run this app, you need the following libraries:
