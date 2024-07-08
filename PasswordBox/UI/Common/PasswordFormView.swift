@@ -33,9 +33,8 @@ struct PasswordFormView: View {
             }
             .padding(.bottom, 20)
             
-            Text("Password")
-                .font(.title)
             PasswordField("PasswordField", text: $passwordString)
+                .padding()
             
             Button(action: {
                 print("更新します")
