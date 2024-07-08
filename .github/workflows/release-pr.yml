@@ -1,0 +1,22 @@
+name: Label Release PRs
+# release/ブランチに release タグを付与します
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+    branches:
+      - main
+
+jobs:
+  label_release_pr:
+    if: startsWith(github.head_ref, 'release/')
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Add label to release PRs
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: release

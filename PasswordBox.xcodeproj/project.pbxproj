@@ -82,6 +82,7 @@
 		3F8C85B72C189D4B0032277E /* PasswordBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F8C85C42C189F0C0032277E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3F8C85C62C189F230032277E /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		3F91E4C62C3AF36000FBF876 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		3F99FC4E2C390873001ED4B2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		3F99FC502C390D65001ED4B2 /* IconStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStyles.swift; sourceTree = "<group>"; };
 		3F99FC582C39258B001ED4B2 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
@@ -214,6 +215,7 @@
 		3F8C858E2C189D4A0032277E = {
 			isa = PBXGroup;
 			children = (
+				3F91E4C52C3AF32A00FBF876 /* ci_scripts */,
 				3F8C85992C189D4A0032277E /* PasswordBox */,
 				3F8C85AA2C189D4B0032277E /* PasswordBoxTests */,
 				3F8C85B42C189D4B0032277E /* PasswordBoxUITests */,
@@ -268,6 +270,14 @@
 				3F8C85B72C189D4B0032277E /* PasswordBoxUITestsLaunchTests.swift */,
 			);
 			path = PasswordBoxUITests;
+			sourceTree = "<group>";
+		};
+		3F91E4C52C3AF32A00FBF876 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3F91E4C62C3AF36000FBF876 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 		3F99FC4D2C390859001ED4B2 /* Resources */ = {
