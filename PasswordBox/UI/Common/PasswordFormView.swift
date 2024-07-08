@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 
 struct PasswordFormView: View {
     @Binding var title: String
@@ -30,12 +31,12 @@ struct PasswordFormView: View {
                 .sheet(isPresented: $isShowingIconView, content: {
                     SettingIconView(title: $title, iconString: $iconString)
                 })
+                .popoverTip(AppTips.ChangeIcon())
             }
             .padding(.bottom, 20)
             
-            Text("Password")
-                .font(.title)
             PasswordField("PasswordField", text: $passwordString)
+                .padding()
             
             Button(action: {
                 print("更新します")
@@ -74,6 +75,12 @@ struct PasswordFormView: View {
                 }
                 .padding(.horizontal, 20)
             }
+        }
+        .task {
+            try? Tips.configure([
+                .displayFrequency(.immediate),
+                .datastoreLocation(.applicationDefault),
+            ])
         }
     }
 }

@@ -37,6 +37,7 @@
 		3F99FC592C39258B001ED4B2 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99FC582C39258B001ED4B2 /* Entry.swift */; };
 		3FC77A5F2C313B5900B56E75 /* SettingIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC77A5E2C313B5900B56E75 /* SettingIconView.swift */; };
 		3FC77A612C313C4500B56E75 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC77A602C313C4500B56E75 /* IconView.swift */; };
+		3FEE0F162C3C2EDE0057EE2F /* AppTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		3F99FC582C39258B001ED4B2 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		3FC77A5E2C313B5900B56E75 /* SettingIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingIconView.swift; sourceTree = "<group>"; };
 		3FC77A602C313C4500B56E75 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 				3F99FC4E2C390873001ED4B2 /* Images.swift */,
 				3F99FC502C390D65001ED4B2 /* IconStyles.swift */,
 				3F026F432C3A789500ED696C /* URLs.swift */,
+				3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				3F026F272C399A4100ED696C /* PasswordKeychain.swift in Sources */,
 				3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */,
 				3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */,
+				3FEE0F162C3C2EDE0057EE2F /* AppTips.swift in Sources */,
 				3F026F442C3A789500ED696C /* URLs.swift in Sources */,
 				3F99FC512C390D65001ED4B2 /* IconStyles.swift in Sources */,
 				3F8C85C72C189F230032277E /* CellView.swift in Sources */,

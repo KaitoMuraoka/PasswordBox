@@ -32,6 +32,7 @@ struct InfomationView: View {
                 LabeledContent("バージョン", value: viewModel.versionString)
             }
         }
+        .navigationTitle("アプリ情報")
     }
 }
 
