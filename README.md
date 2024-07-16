@@ -1,10 +1,12 @@
-# 🔑Password Box
+# 🔐Password Box
 
 Password Box is an iOS app designed to store passwords that cannot be managed by conventional password management tools like iCloud Keychain. It addresses the need to securely store a variety of real-world passcodes that typical password managers can’t handle, such as computer passcodes for different operating systems at the office, bike lock combinations, and more.
 
 Often, the passwords we create ourselves contain unconscious patterns, such as favorite characters, birthdays, or even car license plate numbers. These predictable patterns can lead to dangerous security breaches. Password Box aims to solve these issues.
 
 All data is stored locally on the user’s device, and the main password is stored in iCloud Keychain for secure access.
+
+[<img src="./docs/Assets/download-app-store.svg">](https://apps.apple.com/jp/app/passwordbox/id6520392403)
 
 ## Requirement
 
