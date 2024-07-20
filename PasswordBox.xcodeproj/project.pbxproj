@@ -14,11 +14,12 @@
 		3F026F362C3A618400ED696C /* LicenseList in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F352C3A618400ED696C /* LicenseList */; };
 		3F026F382C3A622500ED696C /* LicenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F372C3A622500ED696C /* LicenseList.swift */; };
 		3F026F402C3A779900ED696C /* WebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F3F2C3A779900ED696C /* WebUI */; };
-		3F026F422C3A77A600ED696C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F412C3A77A600ED696C /* Contact.swift */; };
+		3F026F422C3A77A600ED696C /* OpenURLInSafariViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F412C3A77A600ED696C /* OpenURLInSafariViewModifier.swift */; };
 		3F026F442C3A789500ED696C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F432C3A789500ED696C /* URLs.swift */; };
 		3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */; };
 		3F13F9C82C1DED720068908E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C72C1DED720068908E /* EditView.swift */; };
 		3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */; };
+		3F1DFECF2C4B552E00BAA193 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFECE2C4B552E00BAA193 /* SafariView.swift */; };
 		3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */; };
 		3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F92C1DE2710089CB5A /* AddView.swift */; };
 		3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */; };
@@ -62,11 +63,12 @@
 		3F026F282C39A2E400ED696C /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		3F026F2A2C39A3F100ED696C /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
 		3F026F372C3A622500ED696C /* LicenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseList.swift; sourceTree = "<group>"; };
-		3F026F412C3A77A600ED696C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3F026F412C3A77A600ED696C /* OpenURLInSafariViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLInSafariViewModifier.swift; sourceTree = "<group>"; };
 		3F026F432C3A789500ED696C /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationViewModel.swift; sourceTree = "<group>"; };
 		3F13F9C72C1DED720068908E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormView.swift; sourceTree = "<group>"; };
+		3F1DFECE2C4B552E00BAA193 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 		3F3DE2F92C1DE2710089CB5A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
@@ -164,7 +166,8 @@
 				3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */,
 				3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */,
 				3F026F372C3A622500ED696C /* LicenseList.swift */,
-				3F026F412C3A77A600ED696C /* Contact.swift */,
+				3F026F412C3A77A600ED696C /* OpenURLInSafariViewModifier.swift */,
+				3F1DFECE2C4B552E00BAA193 /* SafariView.swift */,
 			);
 			path = Info;
 			sourceTree = "<group>";
@@ -439,11 +442,12 @@
 				3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */,
 				3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */,
 				3FEE0F162C3C2EDE0057EE2F /* AppTips.swift in Sources */,
+				3F1DFECF2C4B552E00BAA193 /* SafariView.swift in Sources */,
 				3F026F442C3A789500ED696C /* URLs.swift in Sources */,
 				3F99FC512C390D65001ED4B2 /* IconStyles.swift in Sources */,
 				3F8C85C72C189F230032277E /* CellView.swift in Sources */,
 				3F026F2B2C39A3F100ED696C /* AddViewModel.swift in Sources */,
-				3F026F422C3A77A600ED696C /* Contact.swift in Sources */,
+				3F026F422C3A77A600ED696C /* OpenURLInSafariViewModifier.swift in Sources */,
 				3FC77A612C313C4500B56E75 /* IconView.swift in Sources */,
 				3F026F292C39A2E400ED696C /* EditViewModel.swift in Sources */,
 				3F6AA4BE2C3130FC008EC918 /* CreatePassword.swift in Sources */,
