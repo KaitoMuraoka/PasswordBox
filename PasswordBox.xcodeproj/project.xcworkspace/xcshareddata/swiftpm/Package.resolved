@@ -1,5 +1,5 @@
 {
-  "originHash" : "6d9693d0d2ebed2cce70d1e7c0cf6be2d1dcbd91244366a4a87fba11ed359b12",
+  "originHash" : "46542c2fcfadddac75e8477df6fe867ef001d3e27b778582482db7dd9f45229e",
   "pins" : [
     {
       "identity" : "keychainaccess",
@@ -17,15 +17,6 @@
       "state" : {
         "revision" : "0828b88c1a6130d56ede2cc6c41ec50068a7ebd6",
         "version" : "0.7.0"
-      }
-    },
-    {
-      "identity" : "webui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/cybozu/WebUI.git",
-      "state" : {
-        "revision" : "4708709d7c33c84b102eea73d91bd8baea49640b",
-        "version" : "2.1.0"
       }
     }
   ],

@@ -13,7 +13,6 @@
 		3F026F2B2C39A3F100ED696C /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F2A2C39A3F100ED696C /* AddViewModel.swift */; };
 		3F026F362C3A618400ED696C /* LicenseList in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F352C3A618400ED696C /* LicenseList */; };
 		3F026F382C3A622500ED696C /* LicenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F372C3A622500ED696C /* LicenseList.swift */; };
-		3F026F402C3A779900ED696C /* WebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3F026F3F2C3A779900ED696C /* WebUI */; };
 		3F026F422C3A77A600ED696C /* OpenURLInSafariViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F412C3A77A600ED696C /* OpenURLInSafariViewModifier.swift */; };
 		3F026F442C3A789500ED696C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026F432C3A789500ED696C /* URLs.swift */; };
 		3F13F9C62C1DECF30068908E /* InfomationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C52C1DECF30068908E /* InfomationViewModel.swift */; };
@@ -99,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F026F402C3A779900ED696C /* WebUI in Frameworks */,
 				3F026F362C3A618400ED696C /* LicenseList in Frameworks */,
 				3F026F252C3996D000ED696C /* KeychainAccess in Frameworks */,
 			);
@@ -316,7 +314,6 @@
 			packageProductDependencies = (
 				3F026F242C3996D000ED696C /* KeychainAccess */,
 				3F026F352C3A618400ED696C /* LicenseList */,
-				3F026F3F2C3A779900ED696C /* WebUI */,
 			);
 			productName = PasswordBox;
 			productReference = 3F8C85972C189D4A0032277E /* PasswordBox.app */;
@@ -394,7 +391,6 @@
 			packageReferences = (
 				3F3972422C3995D600B5FD6F /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				3F026F342C3A618400ED696C /* XCRemoteSwiftPackageReference "LicenseList" */,
-				3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */,
 			);
 			productRefGroup = 3F8C85982C189D4A0032277E /* Products */;
 			projectDirPath = "";
@@ -815,14 +811,6 @@
 				minimumVersion = 0.7.0;
 			};
 		};
-		3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cybozu/WebUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.0;
-			};
-		};
 		3F3972422C3995D600B5FD6F /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
@@ -843,11 +831,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3F026F342C3A618400ED696C /* XCRemoteSwiftPackageReference "LicenseList" */;
 			productName = LicenseList;
-		};
-		3F026F3F2C3A779900ED696C /* WebUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3F026F3E2C3A779900ED696C /* XCRemoteSwiftPackageReference "WebUI" */;
-			productName = WebUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
