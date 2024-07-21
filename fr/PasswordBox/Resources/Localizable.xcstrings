@@ -1,11 +1,66 @@
-import SwiftUI
-
-extension Image {
-    struct Lock {
-        static let iphoneIcon: Image = .init(systemName: "lock.iphone")
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PasswordBox"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PasswordBox"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PasswordBox"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PasswordBox"
+          }
+        }
+      }
+    },
+    "NSFaceIDUsageDescription" : {
+      "comment" : "Privacy - Face ID Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Use FaceID to secure access to apps and provide secure authentication"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use FaceID to secure access to apps and provide secure authentication"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "FaceIDを使用してアプリへのアクセスを保護し、安全な認証を提供します。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "FaceIDを使用してアプリへのアクセスを保護し、安全な認証を提供します。"
+          }
+        }
+      }
     }
-    struct List {
-        static let infoIcon: Image = .init(systemName: "info.circle")
-        static let addIcon: Image = .init(systemName: "plus.circle")
-    }
+  },
+  "version" : "1.0"
 }
