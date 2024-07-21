@@ -16,7 +16,7 @@ struct SettingIconView: View {
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Completion") {
+                        Button("Done") {
                             dismiss()
                         }
                     }

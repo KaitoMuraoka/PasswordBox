@@ -14,7 +14,7 @@ struct EditView: View {
                 .navigationTitle("Edit")
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Completion") {
+                        Button("Done") {
                             viewModel.save(context, key: entry.id, passwordString)
                             dismiss()
                         }

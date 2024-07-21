@@ -23,7 +23,7 @@ struct AddView: View {
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Completion") {
+                        Button("Done") {
                             viewModel.add(context, title, iconString, passwordString)
                             dismiss()
                         }

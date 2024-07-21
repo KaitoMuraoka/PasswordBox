@@ -21,6 +21,16 @@
         }
       }
     },
+    "App Infomation" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ情報"
+          }
+        }
+      }
+    },
     "Authentication required" : {
       "localizations" : {
         "ja" : {
@@ -51,7 +61,27 @@
         }
       }
     },
-    "Completion" : {
+    "Change icon and title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイコンとタイトルを変更"
+          }
+        }
+      }
+    },
+    "Contact Us" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お問い合わせ"
+          }
+        }
+      }
+    },
+    "Done" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
@@ -77,6 +107,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "パスワードを手動で編集"
+          }
+        }
+      }
+    },
+    "Icons and titles can be edited here." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイコンとタイトルはこちらから編集することができます。"
+          }
+        }
+      }
+    },
+    "Infomation" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情報"
+          }
+        }
+      }
+    },
+    "LICENCE" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライセンス"
           }
         }
       }
@@ -141,6 +201,16 @@
         }
       }
     },
+    "Privacy Policy" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プライバシーポリシー"
+          }
+        }
+      }
+    },
     "Re-authenticate" : {
       "localizations" : {
         "ja" : {
@@ -181,6 +251,36 @@
         }
       }
     },
+    "unkown" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン"
+          }
+        }
+      }
+    },
+    "WebSite" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Webサイト"
+          }
+        }
+      }
+    },
     "You must authenticate your device in order to use the application. \n Please **re-authenticate** to continue" : {
       "localizations" : {
         "ja" : {
@@ -190,21 +290,6 @@
           }
         }
       }
-    },
-    "アイコンとタイトルはこちらから編集することができます。" : {
-
-    },
-    "アイコンとタイトルを変更" : {
-
-    },
-    "アプリ情報" : {
-
-    },
-    "バージョン" : {
-
-    },
-    "情報" : {
-
     }
   },
   "version" : "1.0"
