@@ -1,11 +1,51 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Authentication required" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "認証が必要です"
+          }
+        }
+      }
+    },
+    "Login authentication is required" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン認証が必要です"
+          }
+        }
+      }
+    },
     "OK" : {
 
     },
     "PasswordField" : {
 
+    },
+    "Re-authenticate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再認証する"
+          }
+        }
+      }
+    },
+    "You must authenticate your device in order to use the application. \n Please **re-authenticate** to continue" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを使用するには端末の認証が必要です。続けるには**再認証**をしてください"
+          }
+        }
+      }
     },
     "アイコンとタイトルはこちらから編集することができます。" : {
 
@@ -14,9 +54,6 @@
 
     },
     "アイコンを選択" : {
-
-    },
-    "アプリを使用するには端末の認証が必要です。\n 続けるには**再認証**をしてください" : {
 
     },
     "アプリ情報" : {
@@ -44,12 +81,6 @@
 
     },
     "リスト名" : {
-
-    },
-    "ログイン認証が必要です" : {
-
-    },
-    "再認証する" : {
 
     },
     "完了" : {
