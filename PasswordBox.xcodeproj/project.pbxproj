@@ -19,6 +19,7 @@
 		3F13F9C82C1DED720068908E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9C72C1DED720068908E /* EditView.swift */; };
 		3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */; };
 		3F1DFECF2C4B552E00BAA193 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFECE2C4B552E00BAA193 /* SafariView.swift */; };
+		3F1DFEDD2C4CA01300BAA193 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */; };
 		3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */; };
 		3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F92C1DE2710089CB5A /* AddView.swift */; };
 		3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */; };
@@ -68,6 +69,7 @@
 		3F13F9C72C1DED720068908E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormView.swift; sourceTree = "<group>"; };
 		3F1DFECE2C4B552E00BAA193 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 		3F3DE2F92C1DE2710089CB5A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				3F99FC502C390D65001ED4B2 /* IconStyles.swift */,
 				3F026F432C3A789500ED696C /* URLs.swift */,
 				3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */,
+				3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -380,7 +383,7 @@
 			};
 			buildConfigurationList = 3F8C85922C189D4A0032277E /* Build configuration list for PBXProject "PasswordBox" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = ja;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -410,6 +413,7 @@
 			files = (
 				3F8C85A22C189D4B0032277E /* Preview Assets.xcassets in Resources */,
 				3F8C859F2C189D4B0032277E /* Assets.xcassets in Resources */,
+				3F1DFEDD2C4CA01300BAA193 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
