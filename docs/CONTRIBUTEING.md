@@ -12,7 +12,9 @@ We will respond to your comment as soon as possible, but feel free to start work
 Using GitHub Issues is preferable, but if you have specific ideas for implementation or refactoring, Pull Requests are also welcome.
 
 ## App Translation
-TBD
+his project is managed on Crowdin.
+For translations, please contribute via [Crowdin](https://crowdin.com/project/passwordbox-ios).
+If you would like to add any languages, please write it in an [Issue](https://github.com/KaitoMuraoka/PasswordBox/issues).
 
 ## Web site
 TBD
