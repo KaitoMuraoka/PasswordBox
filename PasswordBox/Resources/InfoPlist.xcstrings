@@ -11,9 +11,21 @@
             "value" : "PasswordBox"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PasswordBox"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "PasswordBox"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "PasswordBox"
           }
         }
@@ -29,10 +41,22 @@
             "value" : "Use FaceID to secure access to apps and provide secure authentication"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Use FaceID to secure access to apps and provide secure authentication"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "FaceIDを使用してアプリへのアクセスを保護し、安全な認証を提供します。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Use FaceID to secure access to apps and provide secure authentication"
           }
         }
       }
