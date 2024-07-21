@@ -21,6 +21,7 @@
 		3F1DFECF2C4B552E00BAA193 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFECE2C4B552E00BAA193 /* SafariView.swift */; };
 		3F1DFEDD2C4CA01300BAA193 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */; };
 		3F1DFEE12C4CB06700BAA193 /* CommonButtonStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */; };
+		3F1DFEE32C4CB5F300BAA193 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DFEE22C4CB5F300BAA193 /* InfoPlist.xcstrings */; };
 		3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */; };
 		3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F92C1DE2710089CB5A /* AddView.swift */; };
 		3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */; };
@@ -72,6 +73,7 @@
 		3F1DFECE2C4B552E00BAA193 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButtonStrings.swift; sourceTree = "<group>"; };
+		3F1DFEE22C4CB5F300BAA193 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 		3F3DE2F92C1DE2710089CB5A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
@@ -295,8 +297,9 @@
 				3F99FC502C390D65001ED4B2 /* IconStyles.swift */,
 				3F026F432C3A789500ED696C /* URLs.swift */,
 				3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */,
-				3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */,
 				3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */,
+				3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */,
+				3F1DFEE22C4CB5F300BAA193 /* InfoPlist.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			files = (
 				3F8C85A22C189D4B0032277E /* Preview Assets.xcassets in Resources */,
 				3F8C859F2C189D4B0032277E /* Assets.xcassets in Resources */,
+				3F1DFEE32C4CB5F300BAA193 /* InfoPlist.xcstrings in Resources */,
 				3F1DFEDD2C4CA01300BAA193 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,7 +637,7 @@
 				DEVELOPMENT_TEAM = B58T472MM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID を使用してアプリへのアクセスを保護し、安全な認証を提供します";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use FaceID to secure access to apps and provide secure authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -669,7 +673,7 @@
 				DEVELOPMENT_TEAM = B58T472MM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID を使用してアプリへのアクセスを保護し、安全な認証を提供します";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use FaceID to secure access to apps and provide secure authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
