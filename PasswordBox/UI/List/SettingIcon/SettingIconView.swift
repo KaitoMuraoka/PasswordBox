@@ -7,16 +7,16 @@ struct SettingIconView: View {
     var body: some View {
         NavigationStack {
             IconView(title: $title, iconString: $iconString)
-                .navigationTitle("アイコンを選択")
+                .navigationTitle("Select Icon")
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
-                        Button("キャンセル") {
+                        Button(CommonButtonStrings.cancel) {
                             dismiss()
                         }
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("完了") {
+                        Button(CommonButtonStrings.done) {
                             dismiss()
                         }
                     }

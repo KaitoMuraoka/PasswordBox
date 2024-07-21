@@ -18,15 +18,15 @@ struct ContentView: View {
                     .cornerRadius(4)
                     .padding(.horizontal, 16)
                 
-                Text("ログイン認証が必要です")
+                Text("Login authentication is required")
                     .font(.title)
-                Text("アプリを使用するには端末の認証が必要です。\n 続けるには**再認証**をしてください")
+                Text("You must authenticate your device in order to use the application. \n Please **re-authenticate** to continue")
                     .multilineTextAlignment(.center)
 
                 Button(action: {
                     authenticate()
                 }, label: {
-                    Text("再認証する")
+                    Text("Re-authenticate")
                         .padding()
                         .foregroundColor(.white)
                         .background(.blue)
@@ -48,7 +48,7 @@ struct ContentView: View {
         var error: NSError?
         
         if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
-            let description = "認証が必要です"
+            let description = String(localized: "Authentication required")
             
             context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: description) { success, authenticationError in
                 DispatchQueue.main.async {

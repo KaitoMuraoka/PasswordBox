@@ -25,7 +25,7 @@ struct ListView: View {
                     }
                 })
             }
-            .navigationTitle("リスト")
+            .navigationTitle("List")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button {

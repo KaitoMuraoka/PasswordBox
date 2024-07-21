@@ -31,10 +31,10 @@ struct CellView: View {
         let date = entry.date
         let formatter = DateFormatter()
         formatter.dateStyle = .medium
-        formatter.timeStyle = .medium
+        formatter.timeStyle = .none
         formatter.timeZone = .current
         formatter.locale = .current
-        formatter.dateFormat = "yyyy年MM月dd日"
+        formatter.doesRelativeDateFormatting = true
         return formatter.string(from: date)
     }
 }

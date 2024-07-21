@@ -14,16 +14,16 @@ struct AddView: View {
     var body: some View {
         NavigationStack {
             PasswordFormView(title: $title, iconString: $iconString, passwordString: $passwordString, passwordLength: $passwordLength)
-                .navigationTitle("追加")
+                .navigationTitle("Add")
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
-                        Button("キャンセル") {
+                        Button(CommonButtonStrings.cancel) {
                             dismiss()
                         }
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("完了") {
+                        Button(CommonButtonStrings.done) {
                             viewModel.add(context, title, iconString, passwordString)
                             dismiss()
                         }

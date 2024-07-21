@@ -18,7 +18,7 @@ struct IconView: View {
                         .padding(.horizontal, 16)
                     
                     TextField(text: $title, axis: .vertical) {
-                        Text("リスト名")
+                        Text("List Name")
                     }
                     .font(.title)
                     .textFieldStyle(.roundedBorder)
@@ -27,7 +27,7 @@ struct IconView: View {
                 }
             }
             
-            // TODO: 検討中
+            // TODO: under consideration
 //            Section {
 //                ScrollView(.horizontal, showsIndicators: false) {
 //                    HStack {

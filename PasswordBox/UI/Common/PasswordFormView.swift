@@ -39,7 +39,6 @@ struct PasswordFormView: View {
                 .padding()
             
             Button(action: {
-                print("更新します")
                 passwordString = CreatePassword.createPassword(
                     length: passwordLength,
                     isAlphabet,
@@ -47,7 +46,7 @@ struct PasswordFormView: View {
                 )
             },
                    label: {
-                Text("パスワードを自動更新")
+                Text("Automatic Password Update")
                     .padding()
                     .foregroundColor(.white)
                     .background(.blue)
@@ -57,20 +56,20 @@ struct PasswordFormView: View {
             Section {
                 VStack(spacing: 30) {
                     Stepper(value: $passwordLength, in: 1...100) {
-                        Text("文字数: \(passwordLength)")
+                        Text("number of characters: \(passwordLength)")
                     }
                     
                     Toggle(isOn: $isAlphabet, label: {
-                        Text("アルファベット")
+                        Text("alphabet")
                     })
                     
                     Toggle(isOn: $isSymbol, label: {
-                        Text("記号")
+                        Text("symbol")
                     })
                     
                     // TODO: 今後実装
 //                    Toggle(isOn: $isNotice, label: {
-//                        Text("通知")
+//                        Text("notice")
 //                    })
                 }
                 .padding(.horizontal, 20)
