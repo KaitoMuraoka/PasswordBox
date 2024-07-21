@@ -1,4 +1,5 @@
 # 🔐Password Box
+[![Crowdin](https://badges.crowdin.net/passwordbox-ios/localized.svg)](https://crowdin.com/project/passwordbox-ios)
 
 Password Box is an iOS app designed to store passwords that cannot be managed by conventional password management tools like iCloud Keychain. It addresses the need to securely store a variety of real-world passcodes that typical password managers can’t handle, such as computer passcodes for different operating systems at the office, bike lock combinations, and more.
 
@@ -16,7 +17,6 @@ To run this app, you need the following libraries:
 - Xcode: 15.4 or higher
 - KeychainAccess: 4.2.2
 - LicenseList: 0.7.0
-- WebUI: 2.1.0
 
 ## Installation
 
