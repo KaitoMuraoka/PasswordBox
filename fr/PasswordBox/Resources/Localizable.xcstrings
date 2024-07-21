@@ -1,35 +1,11 @@
 import SwiftUI
 
-struct IconStyles {
-    static let symbols: [String] = [
-        "key",
-        "lock",
-        "display",
-        "macbook",
-        "iphone",
-        "ipad",
-        "tray",
-        "carrot",
-        "building",
-        "building.2",
-        "drop",
-        "bolt",
-        "leaf",
-        "mappin",
-        "graduationcap",
-        "house",
-    ]
-    
-    static let colors: [Color] = [
-        .red,
-        .orange,
-        .yellow,
-        .green,
-        .blue,
-        .purple,
-        .pink,
-        .brown,
-        .gray,
-        .black
-    ]
+extension Image {
+    struct Lock {
+        static let iphoneIcon: Image = .init(systemName: "lock.iphone")
+    }
+    struct List {
+        static let infoIcon: Image = .init(systemName: "info.circle")
+        static let addIcon: Image = .init(systemName: "plus.circle")
+    }
 }
