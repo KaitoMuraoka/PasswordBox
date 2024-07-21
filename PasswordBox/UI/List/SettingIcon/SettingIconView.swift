@@ -10,13 +10,13 @@ struct SettingIconView: View {
                 .navigationTitle("Select Icon")
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
-                        Button("Cancel") {
+                        Button(CommonButtonStrings.cancel) {
                             dismiss()
                         }
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Done") {
+                        Button(CommonButtonStrings.done) {
                             dismiss()
                         }
                     }

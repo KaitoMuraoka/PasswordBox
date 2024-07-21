@@ -20,6 +20,7 @@
 		3F13F9CB2C1DEE020068908E /* PasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */; };
 		3F1DFECF2C4B552E00BAA193 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFECE2C4B552E00BAA193 /* SafariView.swift */; };
 		3F1DFEDD2C4CA01300BAA193 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */; };
+		3F1DFEE12C4CB06700BAA193 /* CommonButtonStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */; };
 		3F3DE2F82C1DE2500089CB5A /* InfomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */; };
 		3F3DE2FA2C1DE2710089CB5A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DE2F92C1DE2710089CB5A /* AddView.swift */; };
 		3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */; };
@@ -70,6 +71,7 @@
 		3F13F9CA2C1DEE020068908E /* PasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormView.swift; sourceTree = "<group>"; };
 		3F1DFECE2C4B552E00BAA193 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButtonStrings.swift; sourceTree = "<group>"; };
 		3F3DE2F72C1DE2500089CB5A /* InfomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationView.swift; sourceTree = "<group>"; };
 		3F3DE2F92C1DE2710089CB5A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3F6AA4B72C2FDF22008EC918 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 				3F026F432C3A789500ED696C /* URLs.swift */,
 				3FEE0F152C3C2EDE0057EE2F /* AppTips.swift */,
 				3F1DFEDC2C4CA01300BAA193 /* Localizable.xcstrings */,
+				3F1DFEE02C4CB06700BAA193 /* CommonButtonStrings.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				3F026F292C39A2E400ED696C /* EditViewModel.swift in Sources */,
 				3F6AA4BE2C3130FC008EC918 /* CreatePassword.swift in Sources */,
 				3F6AA4B82C2FDF22008EC918 /* PasswordField.swift in Sources */,
+				3F1DFEE12C4CB06700BAA193 /* CommonButtonStrings.swift in Sources */,
 				3F99FC4F2C390873001ED4B2 /* Images.swift in Sources */,
 				3F99FC592C39258B001ED4B2 /* Entry.swift in Sources */,
 				3F13F9C82C1DED720068908E /* EditView.swift in Sources */,

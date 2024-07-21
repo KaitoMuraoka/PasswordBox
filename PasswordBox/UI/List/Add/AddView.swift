@@ -17,13 +17,13 @@ struct AddView: View {
                 .navigationTitle("Add")
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
-                        Button("Cancel") {
+                        Button(CommonButtonStrings.cancel) {
                             dismiss()
                         }
                     }
                     
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Done") {
+                        Button(CommonButtonStrings.done) {
                             viewModel.add(context, title, iconString, passwordString)
                             dismiss()
                         }
