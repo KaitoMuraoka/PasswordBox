@@ -1,0 +1,4 @@
+files:
+  - source: PasswordBox/Resources/
+    translation: PasswordBox/Resources/Localizable.xcstrings
+    multilingual: 1
