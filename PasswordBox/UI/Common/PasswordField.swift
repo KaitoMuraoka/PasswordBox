@@ -22,8 +22,8 @@ struct PasswordField: View {
                     .privacySensitive(isShowSecure)
                     .redacted(reason: .privacy)
             }
-            .alert("パスワードを手動で編集", isPresented: $isPresented) {
-                TextField("テキストフィールド", text: $text)
+            .alert("Edit password manually", isPresented: $isPresented) {
+                TextField("Text Field", text: $text)
                 
                 Button {
                     print("OK")

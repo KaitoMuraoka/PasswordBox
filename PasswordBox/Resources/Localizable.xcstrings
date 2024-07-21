@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "alphabet" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アルファベット"
+          }
+        }
+      }
+    },
     "Authentication required" : {
       "localizations" : {
         "ja" : {
@@ -11,12 +21,42 @@
         }
       }
     },
+    "Automatic Password Update" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを自動更新"
+          }
+        }
+      }
+    },
+    "Edit password manually" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを手動で編集"
+          }
+        }
+      }
+    },
     "Login authentication is required" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ログイン認証が必要です"
+          }
+        }
+      }
+    },
+    "number of characters: %lld" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字数: %lld"
           }
         }
       }
@@ -33,6 +73,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再認証する"
+          }
+        }
+      }
+    },
+    "symbol" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記号"
+          }
+        }
+      }
+    },
+    "Text Field" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストフィールド"
           }
         }
       }
@@ -59,22 +119,10 @@
     "アプリ情報" : {
 
     },
-    "アルファベット" : {
-
-    },
     "キャンセル" : {
 
     },
-    "テキストフィールド" : {
-
-    },
     "バージョン" : {
-
-    },
-    "パスワードを手動で編集" : {
-
-    },
-    "パスワードを自動更新" : {
 
     },
     "リスト" : {
@@ -89,13 +137,7 @@
     "情報" : {
 
     },
-    "文字数: %lld" : {
-
-    },
     "編集" : {
-
-    },
-    "記号" : {
 
     },
     "追加" : {
