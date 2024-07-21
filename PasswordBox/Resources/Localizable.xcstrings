@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Add" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        }
+      }
+    },
     "alphabet" : {
       "localizations" : {
         "ja" : {
@@ -31,12 +41,62 @@
         }
       }
     },
+    "Cancel" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        }
+      }
+    },
+    "Completion" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集"
+          }
+        }
+      }
+    },
     "Edit password manually" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "パスワードを手動で編集"
+          }
+        }
+      }
+    },
+    "List" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リスト"
+          }
+        }
+      }
+    },
+    "List Name" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リスト名"
           }
         }
       }
@@ -62,10 +122,24 @@
       }
     },
     "OK" : {
-
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
     },
     "PasswordField" : {
-
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PasswordField"
+          }
+        }
+      }
     },
     "Re-authenticate" : {
       "localizations" : {
@@ -73,6 +147,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再認証する"
+          }
+        }
+      }
+    },
+    "Select Icon" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイコン選択"
           }
         }
       }
@@ -113,34 +197,13 @@
     "アイコンとタイトルを変更" : {
 
     },
-    "アイコンを選択" : {
-
-    },
     "アプリ情報" : {
-
-    },
-    "キャンセル" : {
 
     },
     "バージョン" : {
 
     },
-    "リスト" : {
-
-    },
-    "リスト名" : {
-
-    },
-    "完了" : {
-
-    },
     "情報" : {
-
-    },
-    "編集" : {
-
-    },
-    "追加" : {
 
     }
   },

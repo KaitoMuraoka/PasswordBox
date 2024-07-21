@@ -11,10 +11,10 @@ struct EditView: View {
     var body: some View {
         NavigationStack {
             PasswordFormView(title: $entry.title, iconString: $entry.iconString, passwordString: $passwordString, passwordLength: $passwordLength)
-                .navigationTitle("編集")
+                .navigationTitle("Edit")
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("完了") {
+                        Button("Completion") {
                             viewModel.save(context, key: entry.id, passwordString)
                             dismiss()
                         }
@@ -23,7 +23,6 @@ struct EditView: View {
         }
         .onAppear {
             load(key: entry.id)
-            print("entryid: \(entry.id)")
         }
     }
     
